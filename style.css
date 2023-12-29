@@ -2,23 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: black;
+  background-color: #212529;
 }
 
 .container {
   display: block;
   background-color: white;
   width: 400px;
-  border-top: 30px solid gray;
+  border-top: 30px solid #ced4da;
   margin-left: 1400px;
-  margin-top: 150px;
-  height: 1200px;
+  margin-top: 100px;
+  height: 1350px;
   position: relative;
 }
 
 header {
   width: 200px;
-  background-color: gray;
+  background-color: #ced4da;
   height: 30px;
   top: 30px;
   left: 100px;
@@ -35,7 +35,7 @@ header .image {
 .img1 {
   width: 195px;
   height: 195px;
-  background-color: gray;
+  background-color: #ced4da;
   position: absolute;
   top: 30px;
   left: -100px;
@@ -44,15 +44,15 @@ header .image {
 .img2 {
   width: 195px;
   height: 195px;
-  background-color: gray;
+  background-color: #ced4da;
   position: absolute;
   top: 30px;
   right: -300px;
 }
 
-article {
+.art1 {
   width: 250px;
-  background-color: gray;
+  background-color: #ced4da;
   height: 30px;
   top: 280px;
   left: -20px;
@@ -62,22 +62,222 @@ article {
 .boxes1 {
   display: inline;
   margin: 10px;
-  /* position: absolute; */
 }
+
 .box1 {
-  width: 100px;
-  height: 100px;
-  border: none;
-  margin-left: 10px;
-  top: 500x;
-  background-color: gray;
+  width: 80px;
+  height: 80px;
+  top: 50px;
+  left: -50px;
+  background-color: #ced4da;
   position: absolute;
 }
 
+.box2 {
+  width: 80px;
+  height: 80px;
+  top: 50px;
+  left: 35px;
+  background-color: #ced4da;
+  position: absolute;
+}
+
+.box3 {
+  width: 80px;
+  height: 80px;
+  top: 50px;
+  left: 122px;
+  background-color: #ced4da;
+  position: absolute;
+}
+
+.box4 {
+  width: 80px;
+  height: 80px;
+  top: 50px;
+  left: 208px;
+  background-color: #ced4da;
+  position: absolute;
+}
+
+.boxes2 {
+  display: inline;
+  margin: 10px;
+}
+
+.box5 {
+  width: 80px;
+  height: 80px;
+  top: 135px;
+  left: -50px;
+  background-color: #ced4da;
+  position: absolute;
+}
+
+.box6 {
+  width: 80px;
+  height: 80px;
+  top: 135px;
+  left: 35px;
+  background-color: #ced4da;
+  position: absolute;
+}
+
+.box7 {
+  width: 80px;
+  height: 80px;
+  top: 135px;
+  left: 122px;
+  background-color: #ced4da;
+  position: absolute;
+}
+
+.box8 {
+  width: 80px;
+  height: 80px;
+  top: 135px;
+  left: 208px;
+  background-color: #ced4da;
+  position: absolute;
+}
+
+.mid-header {
+  width: 300px;
+  background-color: #ced4da;
+  height: 30px;
+  top: 520px;
+  right: -50px;
+  position: absolute;
+}
+
+.mid {
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  background-color: #ced4da;
+  top: 570px;
+  left: -100px;
+}
+
+.border1 {
+  border: 10px solid white;
+  background-color: white;
+  height: 190px;
+  top: 30px;
+  left: 20px;
+  width: 113px;
+  position: absolute;
+}
+
+.border2 {
+  border: 10px solid white;
+  background-color: white;
+  height: 190px;
+  top: 30px;
+  left: 142px;
+  width: 113px;
+  position: absolute;
+}
+
+.border3 {
+  border: 10px solid white;
+  background-color: white;
+  top: 30px;
+  left: 263px;
+  width: 113px;
+  height: 190px;
+  position: absolute;
+}
+
+.b-box1 {
+  position: absolute;
+  background-color: #ced4da;
+  width: 95px;
+  height: 20px;
+  top: 3px;
+}
+
+.b-box2 {
+  position: absolute;
+  background-color: #ced4da;
+  width: 95px;
+  height: 60px;
+  top: 35px;
+}
+
+.b-box3 {
+  position: absolute;
+  background-color: #ced4da;
+  width: 95px;
+  height: 60px;
+  top: 105px;
+}
+
+.last-header {
+  width: 130px;
+  background-color: #ced4da;
+  height: 30px;
+  top: 850px;
+  right: 40px;
+  position: absolute;
+}
+
+.last-header1 {
+  width: 230px;
+  background-color: #ced4da;
+  height: 30px;
+  top: 900px;
+  left: -20px;
+  position: absolute;
+}
+.last-header2 {
+  width: 230px;
+  background-color: #ced4da;
+  height: 30px;
+  top: 935px;
+  left: -20px;
+  position: absolute;
+}
+
+.last-header3 {
+  width: 230px;
+  background-color: #ced4da;
+  height: 30px;
+  top: 972px;
+  left: -20px;
+  position: absolute;
+}
+.last-header4 {
+  width: 230px;
+  background-color: #ced4da;
+  height: 90px;
+  top: 1008px;
+  left: -20px;
+  position: absolute;
+}
+
+.last-header5 {
+  position: absolute;
+  background-color: #ced4da;
+  width: 110px;
+  height: 30px;
+  top: 1110px;
+  left: -20px;
+}
+
+.last-header6 {
+  position: absolute;
+  background-color: #ced4da;
+  width: 110px;
+  height: 30px;
+  top: 1110px;
+  left: 100px;
+}
+
 .end {
-  bottom: -1070px;
-  background-color: gray;
-  height: 100px;
+  bottom: -1199px;
+  background-color: #ced4da;
+  height: 120px;
   width: 400px;
   position: relative;
 }
@@ -91,11 +291,20 @@ article {
   left: 10px;
 }
 
+.e1 {
+  position: absolute;
+  background-color: white;
+  width: 185px;
+  height: 90px;
+  top: 15px;
+  left: 10px;
+}
+
 .e2 {
   position: absolute;
   background-color: white;
   width: 185px;
-  height: 80px;
-  top: 10px;
+  height: 90px;
+  top: 15px;
   right: 10px;
 }
